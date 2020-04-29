@@ -1,0 +1,908 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.4.5-Madeira" projectname="">
+  <homePath path=""/>
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <trust active="0"/>
+  <projectCrs>
+    <spatialrefsys>
+      <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+      <srsid>28234</srsid>
+      <srid>900913</srid>
+      <authid>EPSG:900913</authid>
+      <description>Google Maps Global Mercator</description>
+      <projectionacronym>merc</projectionacronym>
+      <ellipsoidacronym>WGS84</ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </projectCrs>
+  <layer-tree-group>
+    <customproperties/>
+    <layer-tree-layer id="2018_CSO_obs_wAlbers_wSnowClass_wAlbers20181202120326301" source="./vectors/2018_CSO_obs_wAlbers_wSnowClass_wAlbers.shp" checked="Qt::Checked" providerKey="ogr" name="2018_CSO_obs_wAlbers_wSnowClass_wAlbers" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="snowclass_NA_1km_57f01b9a_4054_4327_9034_f6f793fcefce" source="./rasters/snowclass_NA_1km.asc" checked="Qt::Checked" providerKey="gdal" name="snowclass_NA_1km" expanded="0">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer id="2018_CSO_obs_wAlbers_wSnowClass20181202115120155" source="./vectors/2018_CSO_obs_wAlbers_wSnowClass.shp" checked="Qt::Checked" providerKey="ogr" name="2018_CSO_obs_SnowClass" expanded="1">
+      <customproperties/>
+    </layer-tree-layer>
+    <custom-order enabled="0">
+      <item>2018_CSO_obs_wAlbers_wSnowClass20181202115120155</item>
+      <item>2018_CSO_obs_wAlbers_wSnowClass_wAlbers20181202120326301</item>
+      <item>snowclass_NA_1km_57f01b9a_4054_4327_9034_f6f793fcefce</item>
+    </custom-order>
+  </layer-tree-group>
+  <snapping-settings intersection-snapping="0" enabled="0" type="1" unit="2" mode="1" tolerance="0">
+    <individual-layer-settings>
+      <layer-setting id="2018_CSO_obs_wAlbers_wSnowClass20181202115120155" enabled="0" type="2" units="2" tolerance="0"/>
+      <layer-setting id="2018_CSO_obs_wAlbers_wSnowClass_wAlbers20181202120326301" enabled="0" type="2" units="2" tolerance="0"/>
+    </individual-layer-settings>
+  </snapping-settings>
+  <relations/>
+  <mapcanvas annotationsVisible="1" name="theMapCanvas">
+    <units>meters</units>
+    <extent>
+      <xmin>-146.48650318859540675</xmin>
+      <ymin>60.84749269918735592</ymin>
+      <xmax>-145.17036341568484659</xmax>
+      <ymax>61.36063218695630894</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+        <srsid>28234</srsid>
+        <srid>900913</srid>
+        <authid>EPSG:900913</authid>
+        <description>Google Maps Global Mercator</description>
+        <projectionacronym>merc</projectionacronym>
+        <ellipsoidacronym>WGS84</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+  </mapcanvas>
+  <projectModels/>
+  <legend updateDrawingOrder="true">
+    <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="true" name="2018_CSO_obs_wAlbers_wSnowClass_wAlbers">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="2018_CSO_obs_wAlbers_wSnowClass_wAlbers20181202120326301" visible="1" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="false" name="snowclass_NA_1km">
+      <filegroup open="false" hidden="false">
+        <legendlayerfile layerid="snowclass_NA_1km_57f01b9a_4054_4327_9034_f6f793fcefce" visible="1" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer showFeatureCount="0" drawingOrder="-1" checked="Qt::Checked" open="true" name="2018_CSO_obs_SnowClass">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile layerid="2018_CSO_obs_wAlbers_wSnowClass20181202115120155" visible="1" isInOverview="0"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <mapViewDocks/>
+  <mapViewDocks3D/>
+  <projectlayers>
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyDrawingHints="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" type="vector" maxScale="0" geometry="Point" readOnly="0" labelsEnabled="1" simplifyAlgorithm="0" simplifyLocal="1" simplifyMaxScale="1" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshTime="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>-146.38254000000000588</xmin>
+        <ymin>60.90043000000000006</ymin>
+        <xmax>-145.25258999999999787</xmax>
+        <ymax>61.36569999999999681</ymax>
+      </extent>
+      <id>2018_CSO_obs_wAlbers_wSnowClass20181202115120155</id>
+      <datasource>./vectors/2018_CSO_obs_wAlbers_wSnowClass.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2018_CSO_obs_SnowClass</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" type="marker" clip_to_extent="1" name="0" alpha="1">
+            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="225,193,133,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
+        <DiagramCategory penWidth="0" enabled="0" minimumSize="0" sizeScale="3x:0,0,0,0,0,0" penColor="#000000" scaleBasedVisibility="0" maxScaleDenominator="1e+08" labelPlacementMethod="XHeight" scaleDependency="Area" barWidth="5" sizeType="MM" rotationOffset="270" width="15" backgroundAlpha="255" penAlpha="255" height="15" minScaleDenominator="inf" backgroundColor="#ffffff" lineSizeType="MM" opacity="1" lineSizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up">
+          <fontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings dist="0" showAll="1" priority="0" obstacle="0" placement="0" linePlacementFlags="10" zIndex="0">
+        <properties>
+          <Option type="Map">
+            <Option value="" type="QString" name="name"/>
+            <Option name="properties"/>
+            <Option value="collection" type="QString" name="type"/>
+          </Option>
+        </properties>
+      </DiagramLayerSettings>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="snowclass_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="snowclass_" index="0" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="snowclass_" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="snowclass_" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="snowclass_"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" type="field" name="snowclass_" hidden="0"/>
+          <column width="-1" type="actions" hidden="1"/>
+        </columns>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1">.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>COALESCE( "snowclass_", '&lt;NULL>' )</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" simplifyDrawingTol="1" simplifyDrawingHints="1" autoRefreshEnabled="0" refreshOnNotifyMessage="" type="vector" maxScale="0" geometry="Point" readOnly="0" labelsEnabled="1" simplifyAlgorithm="0" simplifyLocal="1" simplifyMaxScale="1" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshTime="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>-146.38254000000000588</xmin>
+        <ymin>60.90043000000000006</ymin>
+        <xmax>-145.25258999999999787</xmax>
+        <ymax>61.36569999999999681</ymax>
+      </extent>
+      <id>2018_CSO_obs_wAlbers_wSnowClass_wAlbers20181202120326301</id>
+      <datasource>./vectors/2018_CSO_obs_wAlbers_wSnowClass_wAlbers.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2018_CSO_obs_wAlbers_wSnowClass_wAlbers</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo-Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent/>
+      </resourceMetadata>
+      <provider encoding="UTF-8">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <dataDependencies/>
+      <legend type="default-vector"/>
+      <expressionfields/>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <auxiliaryLayer/>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol force_rhr="0" type="marker" clip_to_extent="1" name="0" alpha="1">
+            <layer locked="0" enabled="1" pass="0" class="SimpleMarker">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="172,136,70,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="diameter"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option value="" type="QString" name="name"/>
+                  <Option name="properties"/>
+                  <Option value="collection" type="QString" name="type"/>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerOpacity>1</layerOpacity>
+      <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+        <activeChecks/>
+        <checkConfiguration/>
+      </geometryOptions>
+      <fieldConfiguration>
+        <field name="snowclass_">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="X">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Y">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="id">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="author">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="depth">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="source">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="time">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="long">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="lat">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="elevation">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="date_2">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="date_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="M">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="D">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Y_1">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="Code">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="xcoord">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+        <field name="ycoord">
+          <editWidget type="TextEdit">
+            <config>
+              <Option type="Map">
+                <Option value="0" type="QString" name="IsMultiline"/>
+                <Option value="0" type="QString" name="UseHtml"/>
+              </Option>
+            </config>
+          </editWidget>
+        </field>
+      </fieldConfiguration>
+      <aliases>
+        <alias field="snowclass_" index="0" name=""/>
+        <alias field="X" index="1" name=""/>
+        <alias field="Y" index="2" name=""/>
+        <alias field="id" index="3" name=""/>
+        <alias field="author" index="4" name=""/>
+        <alias field="depth" index="5" name=""/>
+        <alias field="source" index="6" name=""/>
+        <alias field="time" index="7" name=""/>
+        <alias field="long" index="8" name=""/>
+        <alias field="lat" index="9" name=""/>
+        <alias field="elevation" index="10" name=""/>
+        <alias field="date_2" index="11" name=""/>
+        <alias field="date_1" index="12" name=""/>
+        <alias field="M" index="13" name=""/>
+        <alias field="D" index="14" name=""/>
+        <alias field="Y_1" index="15" name=""/>
+        <alias field="Code" index="16" name=""/>
+        <alias field="xcoord" index="17" name=""/>
+        <alias field="ycoord" index="18" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <defaults>
+        <default expression="" field="snowclass_" applyOnUpdate="0"/>
+        <default expression="" field="X" applyOnUpdate="0"/>
+        <default expression="" field="Y" applyOnUpdate="0"/>
+        <default expression="" field="id" applyOnUpdate="0"/>
+        <default expression="" field="author" applyOnUpdate="0"/>
+        <default expression="" field="depth" applyOnUpdate="0"/>
+        <default expression="" field="source" applyOnUpdate="0"/>
+        <default expression="" field="time" applyOnUpdate="0"/>
+        <default expression="" field="long" applyOnUpdate="0"/>
+        <default expression="" field="lat" applyOnUpdate="0"/>
+        <default expression="" field="elevation" applyOnUpdate="0"/>
+        <default expression="" field="date_2" applyOnUpdate="0"/>
+        <default expression="" field="date_1" applyOnUpdate="0"/>
+        <default expression="" field="M" applyOnUpdate="0"/>
+        <default expression="" field="D" applyOnUpdate="0"/>
+        <default expression="" field="Y_1" applyOnUpdate="0"/>
+        <default expression="" field="Code" applyOnUpdate="0"/>
+        <default expression="" field="xcoord" applyOnUpdate="0"/>
+        <default expression="" field="ycoord" applyOnUpdate="0"/>
+      </defaults>
+      <constraints>
+        <constraint constraints="0" exp_strength="0" field="snowclass_" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="X" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Y" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="id" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="author" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="depth" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="source" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="time" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="long" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="lat" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="elevation" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="date_2" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="date_1" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="M" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="D" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Y_1" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="Code" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="xcoord" unique_strength="0" notnull_strength="0"/>
+        <constraint constraints="0" exp_strength="0" field="ycoord" unique_strength="0" notnull_strength="0"/>
+      </constraints>
+      <constraintExpressions>
+        <constraint exp="" desc="" field="snowclass_"/>
+        <constraint exp="" desc="" field="X"/>
+        <constraint exp="" desc="" field="Y"/>
+        <constraint exp="" desc="" field="id"/>
+        <constraint exp="" desc="" field="author"/>
+        <constraint exp="" desc="" field="depth"/>
+        <constraint exp="" desc="" field="source"/>
+        <constraint exp="" desc="" field="time"/>
+        <constraint exp="" desc="" field="long"/>
+        <constraint exp="" desc="" field="lat"/>
+        <constraint exp="" desc="" field="elevation"/>
+        <constraint exp="" desc="" field="date_2"/>
+        <constraint exp="" desc="" field="date_1"/>
+        <constraint exp="" desc="" field="M"/>
+        <constraint exp="" desc="" field="D"/>
+        <constraint exp="" desc="" field="Y_1"/>
+        <constraint exp="" desc="" field="Code"/>
+        <constraint exp="" desc="" field="xcoord"/>
+        <constraint exp="" desc="" field="ycoord"/>
+      </constraintExpressions>
+      <expressionfields/>
+      <attributeactions>
+        <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+      </attributeactions>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <editform tolerant="1">.</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>.</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <editable/>
+      <labelOnTop/>
+      <widgets/>
+      <previewExpression>"id"</previewExpression>
+      <mapTip></mapTip>
+    </maplayer>
+    <maplayer hasScaleBasedVisibilityFlag="0" autoRefreshEnabled="0" refreshOnNotifyMessage="" type="raster" maxScale="0" refreshOnNotifyEnabled="0" minScale="1e+08" autoRefreshTime="0" styleCategories="AllStyleCategories">
+      <extent>
+        <xmin>-170.00833376649998741</xmin>
+        <ymin>31.66666903349999274</ymin>
+        <xmax>-71.66667103349998058</xmax>
+        <ymax>70.00833416649999208</ymax>
+      </extent>
+      <id>snowclass_NA_1km_57f01b9a_4054_4327_9034_f6f793fcefce</id>
+      <datasource>./rasters/snowclass_NA_1km.asc</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>snowclass_NA_1km</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+          <srsid>28234</srsid>
+          <srid>900913</srid>
+          <authid>EPSG:900913</authid>
+          <description>Google Maps Global Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <resourceMetadata>
+        <identifier></identifier>
+        <parentidentifier></parentidentifier>
+        <language></language>
+        <type></type>
+        <title></title>
+        <abstract></abstract>
+        <contact>
+          <name></name>
+          <organization></organization>
+          <position></position>
+          <voice></voice>
+          <fax></fax>
+          <email></email>
+          <role></role>
+        </contact>
+        <links/>
+        <fees></fees>
+        <encoding></encoding>
+        <crs>
+          <spatialrefsys>
+            <proj4></proj4>
+            <srsid>0</srsid>
+            <srid>0</srid>
+            <authid></authid>
+            <description></description>
+            <projectionacronym></projectionacronym>
+            <ellipsoidacronym></ellipsoidacronym>
+            <geographicflag>false</geographicflag>
+          </spatialrefsys>
+        </crs>
+        <extent>
+          <spatial minx="0" minz="0" dimensions="2" miny="0" maxz="0" maxy="0" crs="" maxx="0"/>
+          <temporal>
+            <period>
+              <start></start>
+              <end></end>
+            </period>
+          </temporal>
+        </extent>
+      </resourceMetadata>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList useSrcNoData="1" bandNo="1"/>
+      </noData>
+      <map-layer-style-manager current="default">
+        <map-layer-style name="default"/>
+      </map-layer-style-manager>
+      <flags>
+        <Identifiable>1</Identifiable>
+        <Removable>1</Removable>
+        <Searchable>1</Searchable>
+      </flags>
+      <customproperties>
+        <property key="WMSBackgroundLayer" value="false"/>
+        <property key="WMSPublishDataSourceUrl" value="false"/>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="identify/format" value="Value"/>
+      </customproperties>
+      <pipe>
+        <rasterrenderer classificationMax="7" type="singlebandpseudocolor" classificationMin="0" band="1" opacity="1" alphaBand="-1">
+          <rasterTransparency/>
+          <minMaxOrigin>
+            <limits>MinMax</limits>
+            <extent>WholeRaster</extent>
+            <statAccuracy>Estimated</statAccuracy>
+            <cumulativeCutLower>0.02</cumulativeCutLower>
+            <cumulativeCutUpper>0.98</cumulativeCutUpper>
+            <stdDevFactor>2</stdDevFactor>
+          </minMaxOrigin>
+          <rastershader>
+            <colorrampshader clip="0" colorRampType="INTERPOLATED" classificationMode="2">
+              <colorramp type="gradient" name="[source]">
+                <prop k="color1" v="166,97,26,255"/>
+                <prop k="color2" v="1,133,113,255"/>
+                <prop k="discrete" v="0"/>
+                <prop k="rampType" v="gradient"/>
+                <prop k="stops" v="0.25;223,194,125,255:0.5;245,245,245,255:0.75;128,205,193,255"/>
+              </colorramp>
+              <item value="0" color="#a6611a" alpha="255" label="0"/>
+              <item value="1" color="#c79952" alpha="255" label="1"/>
+              <item value="2" color="#e3ca8e" alpha="255" label="2"/>
+              <item value="3" color="#efe7d3" alpha="255" label="3"/>
+              <item value="4" color="#d4eae7" alpha="255" label="4"/>
+              <item value="5" color="#91d3c9" alpha="255" label="5"/>
+              <item value="6" color="#49ae9f" alpha="255" label="6"/>
+              <item value="7" color="#018571" alpha="255" label="7"/>
+            </colorrampshader>
+          </rastershader>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeStrength="100" colorizeBlue="128" saturation="0" grayscaleMode="0" colorizeOn="0" colorizeGreen="128" colorizeRed="255"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+  </projectlayers>
+  <layerorder>
+    <layer id="2018_CSO_obs_wAlbers_wSnowClass20181202115120155"/>
+    <layer id="2018_CSO_obs_wAlbers_wSnowClass_wAlbers20181202120326301"/>
+    <layer id="snowclass_NA_1km_57f01b9a_4054_4327_9034_f6f793fcefce"/>
+  </layerorder>
+  <properties>
+    <SpatialRefSys>
+      <ProjectCRSID type="int">3857</ProjectCRSID>
+      <ProjectCrs type="QString">EPSG:3857</ProjectCrs>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+      <ProjectCRSProj4String type="QString">+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</ProjectCRSProj4String>
+    </SpatialRefSys>
+    <Gui>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <PAL>
+      <ShowingPartialsLabels type="bool">true</ShowingPartialsLabels>
+      <ShowingAllLabels type="bool">false</ShowingAllLabels>
+      <TextFormat type="int">0</TextFormat>
+      <CandidatesPoint type="int">16</CandidatesPoint>
+      <DrawRectOnly type="bool">false</DrawRectOnly>
+      <CandidatesLine type="int">50</CandidatesLine>
+      <SearchMethod type="int">0</SearchMethod>
+      <CandidatesPolygon type="int">30</CandidatesPolygon>
+      <ShowingCandidates type="bool">false</ShowingCandidates>
+    </PAL>
+    <Measurement>
+      <AreaUnits type="QString"></AreaUnits>
+      <DistanceUnits type="QString"></DistanceUnits>
+    </Measurement>
+    <Digitizing>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <LayerSnappingList type="QStringList">
+        <value>2018_CSO_observations_TP_albersadded20181202115020918</value>
+        <value>2018_CSO_obs_wAlbers_wSnowClass20181202115120155</value>
+        <value>2018_CSO_obs_wAlbers_wSnowClass_wAlbers20181202120326301</value>
+      </LayerSnappingList>
+    </Digitizing>
+  </properties>
+  <visibility-presets/>
+  <transformContext/>
+  <projectMetadata>
+    <identifier></identifier>
+    <parentidentifier></parentidentifier>
+    <language></language>
+    <type></type>
+    <title></title>
+    <abstract></abstract>
+    <links/>
+    <author></author>
+    <creation></creation>
+  </projectMetadata>
+  <Annotations/>
+  <Layouts/>
+</qgis>
