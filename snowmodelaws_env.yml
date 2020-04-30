@@ -25,4 +25,13 @@ dependencies:
   - boto3=1.12.27
   - s3fs=0.4.0
   - fsspec
+  # holoviz packages
+  - bokeh
+  - colorcet
+  - datashader
+  - geoviews
+  - holoviews
+  - hvplot
+  - panel
+  - param
 
