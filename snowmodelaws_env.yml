@@ -7,25 +7,33 @@ dependencies:
   - ipython
   - ipykernel
   - requests
+  - aiohttp
   - ulmo
   - geopandas
   - descartes
+  - mapclassify
   - geojson
   - utm
   - xarray
+  - rioxarray
   - netcdf4
+  - siphon
   - dask
   - python-graphviz
   - zarr
+  - scipy
   - matplotlib
   - seaborn
   - cartopy
   - folium
   - xlrd
-  - boto3=1.12.27
-  - s3fs=0.4.0
+  - boto3
+  - s3fs
   - fsspec
-  # holoviz packages
+  - xlrd
+  - fastparquet
+  - python-snappy
+# holoviz packages
   - bokeh
   - colorcet
   - datashader
